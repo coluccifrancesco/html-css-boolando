@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ROboto;
+    font-family: Roboto;
 
     border: 1px dashed grey;   /* <-- DEBUG */
 }
@@ -23,8 +23,6 @@ body{
     main,
     footer{
         max-width: 1200px;
-
-        background-color: lightblue;  /* <-- DEBUG */
     }
 }
 
@@ -101,6 +99,7 @@ i{
 .marg-0-1{
     margin: o -1rem;
 }
+
 
 /*Font*/
 .bold{
