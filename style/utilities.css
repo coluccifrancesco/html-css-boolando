@@ -92,7 +92,7 @@ i{
 /*Margins & Paddings*/
 
 .m-auto{
-    margin: 0px 10%
+    margin: 0px auto;
 }
 
 .m-1{
@@ -115,11 +115,11 @@ i{
 
 
 /*Position*/
-.rel{
+.relative{
     position: relative;
 }
 
-.abs{
+.absolute{
     position: absolute;
 }
 

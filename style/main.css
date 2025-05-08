@@ -19,3 +19,11 @@ main{
 .img-product{
     height: 100%;
 }
+
+.container{
+    max-width: 1200px;
+}
+
+.img-prodotto{
+    max-width: 100%;
+}
