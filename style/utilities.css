@@ -19,10 +19,10 @@
 /*Nesting*/
 body{
     background-color:white;
-
-    main,
-    footer{
-        max-width: 1200px;
+    
+        main,
+        footer{
+            max-width: 1200px;
     }
 }
 
@@ -42,13 +42,15 @@ i{
 
 
 /*Width*/
-.w-80{
-    width: 80%;
+.width-max-min{
+    max-width: 1200px;
+    min-width: 720px;
 }
 
-.w-calc{
-    width: calc(100%/12/4);  /* se problema passa a MAXWIDTH */
+.width-calc{
+    width: calc(100%/12*4);  /* se problema passa a MAXWIDTH */
 }
+
 
 
 /*Display porperties*/
@@ -56,32 +58,31 @@ i{
     display: flex;
 }
 
-.dir-col{
+.direction-column{
     flex-direction: column;
 }
 
-.dir-row{
+.direction-row{
     flex-direction: row;
 }
 
-.jc-sb{
+.justify-content-space-between{
     justify-content: space-between;
 }
 
-.jc-sa{
+.justify-content-space-around{
     justify-content: space-around;
 }
 
-.jc-c{
+.justify-content-center{
     justify-content: center;
 }
 
-.jc-fe{
+.justify-content-flex-end{
     justify-content: flex-end;
 }
 
-
-.ai-c{
+.align-items-center{
     align-items: center;
 }
 
@@ -89,15 +90,23 @@ i{
     flex-wrap: wrap;
 }
 
+.no-wrap{
+    flex-wrap: nowrap;
+}
+
 
 /*Margins & Paddings*/
 
-.marg-0auto{
+.m-auto{
     margin: 0px 10%
 }
 
-.marg-0-1{
-    margin: o -1rem;
+.m-1{
+    margin: 0 -1rem;
+}
+
+.p-1{
+    padding: 1rem;
 }
 
 
@@ -108,4 +117,20 @@ i{
 
 .size-14{
     font-size: 14px;
+}
+
+
+/*Position*/
+.rel{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+}
+
+.heart{
+    top: 0;
+    z-index: 50;
+    min-height: 100%;
 }

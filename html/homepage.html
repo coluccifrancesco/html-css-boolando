@@ -18,9 +18,9 @@
     </head>
     
     <body>
-        <header class="flex  jc-c  ai-c">
+        <header class="flex  justify-content-center  align-items-center">
             
-            <nav  class="flex  jc-sb  ai-c  w-80">
+            <nav  class="flex  justify-content-space-between  align-items-center  width-max-min">
                 
                 <section  class="left-section  bold  size-14">
                     <a>Donna</a>
@@ -28,11 +28,11 @@
                     <a>Bambino</a>
                 </section>
 
-                <section class="middle-section  flex  jc-sa"> 
+                <section class="middle-section  flex  justify-content-space-around"> 
                     <img src="../img/boolean-logo.png" alt="Immaigne Logo" class="logo  cursor">    
                 </section>
 
-                <section class="right-section  flex  ai-c  jc-fe">
+                <section class="right-section  flex  align-items-center  justify-content-flex-end">
                     <div  class="flex">
                         <i class="fa-regular fa-user"></i>
                         <i class="fa-regular fa-heart"></i>
@@ -45,28 +45,31 @@
         </header>
         
         <main>
-            <div  class="w-80  marg-0auto">
-                <div  class="row  flex  dir-row  wrap  marg-0-1  jc-c">  <!--row   display flex  wrap  margin: 0 -1rem-->
+            <div  class="m-auto">
+                <div  class="direction-row  flex  direction-column  wrap  m-1  justify-content-center">  <!--row   display flex  wrap  margin: 0 -1rem-->
                     
-                    <div>  <!--column-4   width: calc(100%/12*4)  padding:1rem-->   <!--card:hover{svg{display:block}}-->
-                        <card>   <!--product card   position:relative-->
-                            <!--img   max-width: 100%  vertical-align: middle-->
-                            <!--svg heart  position: absolute  bring him on top right  display:none-->
-                            <!--div prezzo/sconto position absolute-->
-                            <div>    <!--info prodotto-->
-                                <p><!--marca--></p>
-                                <a><!--nome prodotto    href   cursor pointer--></a>
-                                <p><!--prezzo    se scontato usa <span>--></p>
-                            </div>
-                        </card>
+                    <div class="width-calc  p-1  ">  <!--column-4-->   <!--div:hover{i{display:block}}-->
+                       
+                        <div class="card  relative">   <!--product div-->                          
+                            <img class="" src="../img/1.webp"  alt="Immagine Prodotto">
+                        </div>
+
+                        <div class="card  relative">   <!--product div-->
+                            <img class="" src="../img/1.webp"  alt="Immagine Prodotto">               
+                        </div>
+
+                        <div class="card  relative">   <!--product div-->                       
+                            <img class="" src="../img/1.webp"  alt="Immagine Prodotto">                          
+                        </div>
+                    
                     </div>
                 
                 </div>
             </div>
         </main>
        
-        <footer class="flex  jc-c  ai-c">
-            <nav  class="flex  jc-sb">    <!--flex space-between center   width:85%-->
+        <footer class="flex  justify-content-center  align-items-center">
+            <nav  class="flex  justify-content-space-between">    <!--flex space-between center   width:85%-->
                 <section class="left-f"> 
                     <h3>Booleando s.r.l.</h3>
 
@@ -77,7 +80,7 @@
                     </div>
                 </section>
 
-                <section  class="right-f  flex  dir-col">    <!--right section    display flex  block  end-->
+                <section  class="right-f  flex  direction-column">    <!--right section    display flex  block  end-->
                     <h4  class="size-14">Trovaci anche su</h4>
 
                     <div>

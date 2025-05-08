@@ -1,3 +1,22 @@
 /* per ogni immagine prodotto, quando hover, mostrare seconda foto */
 
 /* PER BONUS HAI UN'ALTRA CARTELLA */
+
+main{
+    margin-top: 50px;
+    min-width: 100%;
+        div{
+            card{
+                .fa-heart{
+                    font-size: 13px;
+                    background-color: var(--usually-white);
+                    padding: 5px;
+                }
+            }
+        }
+}
+
+.sconti{
+    margin-left: 10px;
+    z-index: 50;
+}

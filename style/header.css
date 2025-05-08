@@ -1,10 +1,12 @@
 header{
-    position: fixed;
+    position: fixed ;
+    top: 0;
     background-color: var(--header-bg-color);
     width: 100%;
     color: var(--usually-white);
     fill: var(--usually-white);
     height: 55px;
+    z-index: 1000;
 }
 
 .logo{
@@ -12,16 +14,11 @@ header{
 }
 
 .left-section{
-
     min-width:25%;
 
     a{
         margin-right: 10px;
     }
-}
-
-.middle-section{
-    min-width: 50%;
 }
 
 .right-section{
