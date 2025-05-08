@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ROboto;
 
-    border: 1px dashed grey;
+    border: 1px dashed grey;   /* <-- DEBUG */
 }
 
 :root{
@@ -19,21 +20,19 @@
 body{
     background-color:white;
 
-    header{
-        position: fixed;
-        background-color: var(--header-bg-color);
-        width: 100%;
-    }
-    
     main,
     footer{
         max-width: 1200px;
-        
+
         background-color: lightblue;  /* <-- DEBUG */
     }
 }
 
 a{
+    cursor: pointer;
+}
+
+i{
     cursor: pointer;
 }
 
@@ -71,10 +70,43 @@ a{
     justify-content: space-between;
 }
 
+.jc-sa{
+    justify-content: space-around;
+}
+
 .jc-c{
     justify-content: center;
 }
 
+.jc-fe{
+    justify-content: flex-end;
+}
+
+
 .ai-c{
     align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+/*Margins & Paddings*/
+
+.marg-0auto{
+    margin: 0px 10%
+}
+
+.marg-0-1{
+    margin: o -1rem;
+}
+
+/*Font*/
+.bold{
+    font-weight: bold;
+}
+
+.size-14{
+    font-size: 14px;
 }

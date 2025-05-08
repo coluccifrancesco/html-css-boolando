@@ -1,0 +1,33 @@
+header{
+    position: fixed;
+    background-color: var(--header-bg-color);
+    width: 100%;
+    color: var(--usually-white);
+    fill: var(--usually-white);
+    height: 55px;
+}
+
+.logo{
+    max-height: 30px;
+}
+
+.left-section{
+
+    min-width:25%;
+
+    a{
+        margin-right: 10px;
+    }
+}
+
+.middle-section{
+    min-width: 50%;
+}
+
+.right-section{
+    min-width: 25%;
+
+    i{
+        margin-left: 15px;
+    }
+}

@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -16,29 +18,35 @@
     </head>
     
     <body>
-        <header>
+        <header class="flex  jc-c  ai-c">
+            
             <nav  class="flex  jc-sb  ai-c  w-80">
-                <section>   <!--left section-->
+                
+                <section  class="left-section  bold  size-14">
                     <a>Donna</a>
                     <a>Uomo</a>
                     <a>Bambino</a>
                 </section>
 
-                <section>   <!--middle section-->
-                    <!--logo-->     
+                <section class="middle-section  flex  jc-sa"> 
+                    <img src="../img/boolean-logo.png" alt="Immaigne Logo" class="logo  cursor">    
                 </section>
 
-                <section>    <!--right section-->
-                    <div>
-                        <!--svgs-->
+                <section class="right-section  flex  ai-c  jc-fe">
+                    <div  class="flex">
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-bag-shopping"></i>
                     </div> 
                 </section>
+            
             </nav>
+        
         </header>
         
         <main>
-            <div>  <!--container  width:80%;  margin:0 auto;-->
-                <div>  <!--row   display flex  wrap  margin: 0 -1rem-->
+            <div  class="w-80  marg-0auto">
+                <div  class="row  flex  dir-row  wrap  marg-0-1  jc-c">  <!--row   display flex  wrap  margin: 0 -1rem-->
                     
                     <div>  <!--column-4   width: calc(100%/12*4)  padding:1rem-->   <!--card:hover{svg{display:block}}-->
                         <card>   <!--product card   position:relative-->
