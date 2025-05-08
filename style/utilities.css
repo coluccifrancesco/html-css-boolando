@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --header-bg-color: #FF6800;
+    --discount-bg-actualprice-color: #FF0000;
+    --sustainability-bg-color: #008001;
+    --usually-white: white;
+    --usually-black: black;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+.debug-white{
+    border: 1px dashed white;
+}
+
+body{
+    header
+    main,
+    footer{
+        min-width: 1200px;
+    }
+}
+
+.cursor{
+    cursor: pointer;
+}
