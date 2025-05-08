@@ -44,7 +44,7 @@ i{
 /*Width*/
 .width-max-min{
     max-width: 1200px;
-    min-width: 720px;
+    min-width: 80%;
 }
 
 .width-calc{
