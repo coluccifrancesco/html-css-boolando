@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    border: 1px dashed grey;
 }
 
 :root{
@@ -12,16 +14,10 @@
     --usually-black: black;
 }
 
-.debug{
-    border: 1px dashed black;
-}
-
-.debug-white{
-    border: 1px dashed white;
-}
-
 body{
-    header
+    background-color:white;
+
+    header,
     main,
     footer{
         min-width: 1200px;
