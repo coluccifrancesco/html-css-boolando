@@ -48,9 +48,8 @@ i{
 }
 
 .width-calc{
-    width: calc(100%/12*4);  /* se problema passa a MAXWIDTH */
+    width: calc(100% / 12 * 4);  /* se problema passa a MAXWIDTH */
 }
-
 
 
 /*Display porperties*/
