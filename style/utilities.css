@@ -19,11 +19,6 @@
 /*Nesting*/
 body{
     background-color:white;
-    
-        main,
-        footer{
-            max-width: 1200px;
-    }
 }
 
 a{
