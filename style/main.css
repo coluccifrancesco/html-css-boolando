@@ -27,3 +27,54 @@ main{
 .img-prodotto{
     max-width: 100%;
 }
+
+.cuoricino{
+    right: 0;
+    margin-top: 10px;
+    background-color: var(--usually-white);
+    padding: 10px;
+}
+
+.banner-sconto-sostenibilità{
+    font-size: 10px;
+    color: var(--usually-white);
+}
+
+.sconto{
+    bottom: 0;
+    margin-bottom: 100px;
+    padding: 2px 7px;
+    background-color: var(--discount-bg-actualprice-color);
+}
+
+.sostenibilità{
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 42px;
+    padding: 2px 7px;
+    background-color: var(--sustainability-bg-color);
+}
+
+.marca{
+    color: var(--brand-color-text);
+    font-size: 10px;
+}
+
+.modello{
+    font-size: 13px;
+    padding: 2px 0px;
+}
+
+.prezzo-scontato{
+    color: var(--discount-color-text);
+    font-size: 10px;
+    
+    align-items:center;
+}
+
+.prezzo-originale{
+    color: var(--brand-color-text);
+    margin-left: 5px;
+    font-size: 8px;
+    text-decoration: line-through;  /* Sbarratura testo */
+}
