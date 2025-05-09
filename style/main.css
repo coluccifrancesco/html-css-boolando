@@ -22,6 +22,7 @@ main{
 
 .container{
     max-width: 1200px;
+    width: 80%;
 }
 
 .img-prodotto{
@@ -42,14 +43,14 @@ main{
 
 .sconto{
     bottom: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding: 2px 7px;
     background-color: var(--discount-bg-actualprice-color);
 }
 
 .sostenibilità{
     bottom: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: 42px;
     padding: 2px 7px;
     background-color: var(--sustainability-bg-color);

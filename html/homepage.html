@@ -1,60 +1,66 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        
-        <title>Boolando</title>
-        <link rel="stylesheet" href="../style/utilities.css">
-        <link rel="stylesheet" href="../style/header.css">
-        <link rel="stylesheet" href="../style/main.css">
-        <link rel="stylesheet" href="../style/footer.css">
-    </head>
-    
-    <body>
-        <header class="flex  justify-content-center  align-items-center">
-            
-            <nav  class="flex  justify-content-space-between  align-items-center  width-max-min">
-                
-                <section  class="left-section  bold  size-14">
-                    <a>Donna</a>
-                    <a>Uomo</a>
-                    <a>Bambino</a>
-                </section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-                <section class="middle-section  flex  justify-content-space-around"> 
-                    <img src="../img/boolean-logo.png" alt="Immaigne Logo" class="logo  cursor">    
-                </section>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-                <section class="right-section  flex  align-items-center  justify-content-flex-end">
-                    <div  class="flex">
-                        <i class="fa-regular fa-user"></i>
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-solid fa-bag-shopping"></i>
-                    </div> 
-                </section>
-            
-            </nav>
-        
-        </header>
-        
-        <main id="main">  <!-- 100% width -->
-            
-            <section>
-                <div class="container  m-auto">
-                    <div class="flex  justify-content-center  align-items-center  wrap">  
-                      <!-- Riga /  Flex fa affiancare le colonne  /  Wrap le colonne oltre le 3 per riga crea una seconda riga-->
-                        <div class="width-calc  p-1  m-1">  
-                          <!-- Colonna  4  12esimi -->
+    <title>Boolando</title>
+    <link rel="stylesheet" href="../style/utilities.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/footer.css">
+</head>
 
-                            <div class="relative">  
-                              <!-- Card prodotto -->
+<body>
+    <header class="flex  justify-content-center  align-items-center">
+
+        <nav class="flex  justify-content-space-between  align-items-center  width-max-min">
+
+            <section class="left-section  bold  size-14">
+                <a>Donna</a>
+                <a>Uomo</a>
+                <a>Bambino</a>
+            </section>
+
+            <section class="middle-section  flex  justify-content-space-around">
+                <img src="../img/boolean-logo.png" alt="Immaigne Logo" class="logo  cursor">
+            </section>
+
+            <section class="right-section  flex  align-items-center  justify-content-flex-end">
+                <div class="flex">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </section>
+
+        </nav>
+
+    </header>
+
+    <main id="main"> <!-- 100% width -->
+
+        <section>
+            <div class="container  m-auto">
+                <!-- Riga /  Flex fa affiancare le colonne  /  Wrap le colonne oltre le 3 per riga crea una seconda riga-->
+                <div class="row  flex  justify-content-center  align-items-center  wrap">
+                   
+                    <div class="col  width-calc  p-1">
+                        <!-- Colonna  4  12esimi -->
+
+                        <div>
+                            <!-- Card prodotto -->
+                            <div class="relative">
                                 <img class="img-prodotto  cursor" src="../img/1.webp" alt="Immagine Prodotto">
 
                                 <i class="cuoricino  absolute  fa-solid  fa-heart"></i>
@@ -63,51 +69,209 @@
                                     <p class="sconto  absolute">-50%</p>
                                     <p class="sostenibilità  absolute">Sostenibilità</p>
                                 </div>
-
-                                <div class="flex  justify-content-space-between  direction-column">   <!-- contiene i testi -->
-                                    <a  href=""  class="marca  cursor">Levi's</a>
-                                    <a  href=""  class="modello  cursor">RELAXED FIT TEE UNISEX</a>
-                                    <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
-                                </div>
-
                             </div>
 
-                            <!--controlla perchè quando aggiungi altre card non le sposta, bensì le sovrappone, 
+                            <div class="flex  justify-content-space-between  direction-column">
+                                <!-- contiene i testi -->
+                                <a href="" class="marca  cursor">Levi's</a>
+                                <a href="" class="modello  cursor">RELAXED FIT TEE UNISEX</a>
+                                <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <!--controlla perchè quando aggiungi altre card non le sposta, bensì le sovrappone, 
                                 falle tutte e 6 POI fai l'effetto hover delle foto con classe dedicata per ognuna, 
                                 finito quello passa a bonus; poi collega alle marche il sito della relativa marca
                             -->
 
-                        </div>
                     </div>
+
+                    <div class="col  width-calc  p-1">
+                        <!-- Colonna  4  12esimi -->
+
+                        <div>
+                            <!-- Card prodotto -->
+                            <div class="relative">
+                                <img class="img-prodotto  cursor" src="../img/1.webp" alt="Immagine Prodotto">
+
+                                <i class="cuoricino  absolute  fa-solid  fa-heart"></i>
+
+                                <div class="banner-sconto-sostenibilità">
+                                    <p class="sconto  absolute">-50%</p>
+                                    <p class="sostenibilità  absolute">Sostenibilità</p>
+                                </div>
+                            </div>
+
+                            <div class="flex  justify-content-space-between  direction-column">
+                                <!-- contiene i testi -->
+                                <a href="" class="marca  cursor">Levi's</a>
+                                <a href="" class="modello  cursor">RELAXED FIT TEE UNISEX</a>
+                                <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col  width-calc  p-1">
+                        <!-- Colonna  4  12esimi -->
+
+                        <div>
+                            <!-- Card prodotto -->
+                            <div class="relative">
+                                <img class="img-prodotto  cursor" src="../img/1.webp" alt="Immagine Prodotto">
+
+                                <i class="cuoricino  absolute  fa-solid  fa-heart"></i>
+
+                                <div class="banner-sconto-sostenibilità">
+                                    <p class="sconto  absolute">-50%</p>
+                                    <p class="sostenibilità  absolute">Sostenibilità</p>
+                                </div>
+                            </div>
+
+                            <div class="flex  justify-content-space-between  direction-column">
+                                <!-- contiene i testi -->
+                                <a href="" class="marca  cursor">Levi's</a>
+                                <a href="" class="modello  cursor">RELAXED FIT TEE UNISEX</a>
+                                <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <!--controlla perchè quando aggiungi altre card non le sposta, bensì le sovrappone, 
+                                  falle tutte e 6 POI fai l'effetto hover delle foto con classe dedicata per ognuna, 
+                                  finito quello passa a bonus; poi collega alle marche il sito della relativa marca
+                              -->
+
+                    </div>
+
+                    <div class="col  width-calc  p-1">
+                        <!-- Colonna  4  12esimi -->
+
+                        <div>
+                            <!-- Card prodotto -->
+                            <div class="relative">
+                                <img class="img-prodotto  cursor" src="../img/1.webp" alt="Immagine Prodotto">
+
+                                <i class="cuoricino  absolute  fa-solid  fa-heart"></i>
+
+                                <div class="banner-sconto-sostenibilità">
+                                    <p class="sconto  absolute">-50%</p>
+                                    <p class="sostenibilità  absolute">Sostenibilità</p>
+                                </div>
+                            </div>
+
+                            <div class="flex  justify-content-space-between  direction-column">
+                                <!-- contiene i testi -->
+                                <a href="" class="marca  cursor">Levi's</a>
+                                <a href="" class="modello  cursor">RELAXED FIT TEE UNISEX</a>
+                                <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col  width-calc  p-1">
+                        <!-- Colonna  4  12esimi -->
+
+                        <div>
+                            <!-- Card prodotto -->
+                            <div class="relative">
+                                <img class="img-prodotto  cursor" src="../img/1.webp" alt="Immagine Prodotto">
+
+                                <i class="cuoricino  absolute  fa-solid  fa-heart"></i>
+
+                                <div class="banner-sconto-sostenibilità">
+                                    <p class="sconto  absolute">-50%</p>
+                                    <p class="sostenibilità  absolute">Sostenibilità</p>
+                                </div>
+                            </div>
+
+                            <div class="flex  justify-content-space-between  direction-column">
+                                <!-- contiene i testi -->
+                                <a href="" class="marca  cursor">Levi's</a>
+                                <a href="" class="modello  cursor">RELAXED FIT TEE UNISEX</a>
+                                <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <!--controlla perchè quando aggiungi altre card non le sposta, bensì le sovrappone, 
+                                      falle tutte e 6 POI fai l'effetto hover delle foto con classe dedicata per ognuna, 
+                                      finito quello passa a bonus; poi collega alle marche il sito della relativa marca
+                                  -->
+
+                    </div>
+
+                    <div class="col  width-calc  p-1">
+                        <!-- Colonna  4  12esimi -->
+
+                        <div>
+                            <!-- Card prodotto -->
+                            <div class="relative">
+                                <img class="img-prodotto  cursor" src="../img/1.webp" alt="Immagine Prodotto">
+
+                                <i class="cuoricino  absolute  fa-solid  fa-heart"></i>
+
+                                <div class="banner-sconto-sostenibilità">
+                                    <p class="sconto  absolute">-50%</p>
+                                    <p class="sostenibilità  absolute">Sostenibilità</p>
+                                </div>
+                            </div>
+
+                            <div class="flex  justify-content-space-between  direction-column">
+                                <!-- contiene i testi -->
+                                <a href="" class="marca  cursor">Levi's</a>
+                                <a href="" class="modello  cursor">RELAXED FIT TEE UNISEX</a>
+                                <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="flex  justify-content-center  align-items-center">
+        <nav class="flex  justify-content-space-between  footer-nav"> <!--flex space-between center   width:85%-->
+            <section class="left-f">
+                <h3>Booleando s.r.l.</h3>
+
+                <div class="size-14"> <!--display flex space-around center-->
+                    <a>Informazioni legali</a>
+                    <a>Informativa sulla privacy</a>
+                    <a>Diritto di recesso</a>
                 </div>
             </section>
 
-        </main>
-       
-        <footer class="flex  justify-content-center  align-items-center">
-            <nav  class="flex  justify-content-space-between  footer-nav">    <!--flex space-between center   width:85%-->
-                <section class="left-f"> 
-                    <h3>Booleando s.r.l.</h3>
+            <section class="right-f  flex  direction-column"> <!--right section    display flex  block  end-->
+                <h4 class="size-14">Trovaci anche su</h4>
 
-                    <div  class="size-14">     <!--display flex space-around center-->
-                        <a>Informazioni legali</a>
-                        <a>Informativa sulla privacy</a>
-                        <a>Diritto di recesso</a>
-                    </div>
-                </section>
+                <div>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+                </div>
+            </section>
+        </nav>
+    </footer>
+</body>
 
-                <section  class="right-f  flex  direction-column">    <!--right section    display flex  block  end-->
-                    <h4  class="size-14">Trovaci anche su</h4>
-
-                    <div>
-                        <i class="fa-brands fa-square-twitter"></i>
-                        <i class="fa-brands fa-square-facebook"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-pinterest-p"></i>
-                        <i class="fa-brands fa-square-youtube"></i>
-                    </div>
-                </section>
-            </nav>
-        </footer>
-    </body>
 </html>

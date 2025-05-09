@@ -122,6 +122,7 @@ i{
 
 .absolute{
     position: absolute;
+    z-index: 100;
 }
 
 .heart{
