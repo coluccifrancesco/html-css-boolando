@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family: Roboto;
 
-    border: 1px dashed grey;   /* <-- DEBUG */
 }
 
 :root{

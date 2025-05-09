@@ -55,7 +55,7 @@
 
                             <div class="relative">  
                               <!-- Card prodotto -->
-                                <img class="img-prodotto" src="../img/1.webp" alt="Immagine Prodotto">
+                                <img class="img-prodotto  cursor" src="../img/1.webp" alt="Immagine Prodotto">
 
                                 <i class="cuoricino  absolute  fa-solid  fa-heart"></i>
 
@@ -64,11 +64,18 @@
                                     <p class="sostenibilità  absolute">Sostenibilità</p>
                                 </div>
 
-                                <p class="marca">Levi's</p>
-                                <p class="modello">RELAXED FIT TEE UNISEX</p>
-                                <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
+                                <div class="flex  justify-content-space-between  direction-column">   <!-- contiene i testi -->
+                                    <a  href=""  class="marca  cursor">Levi's</a>
+                                    <a  href=""  class="modello  cursor">RELAXED FIT TEE UNISEX</a>
+                                    <p class="prezzo-scontato  flex">19,99€<span class="prezzo-originale">29,99€</span></p>
+                                </div>
 
                             </div>
+
+                            <!--controlla perchè quando aggiungi altre card non le sposta, bensì le sovrappone, 
+                                falle tutte e 6 POI fai l'effetto hover delle foto con classe dedicata per ognuna, 
+                                finito quello passa a bonus; poi collega alle marche il sito della relativa marca
+                            -->
 
                         </div>
                     </div>

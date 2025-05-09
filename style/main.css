@@ -62,7 +62,16 @@ main{
 
 .modello{
     font-size: 13px;
-    padding: 2px 0px;
+    margin: 4px 0px;
+}
+
+.modello:active{
+    color: var(--discount-bg-actualprice-color);
+}
+
+.modello:visited{
+    color: initial;
+    text-transform: initial;
 }
 
 .prezzo-scontato{
